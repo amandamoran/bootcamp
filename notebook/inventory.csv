@@ -1,5 +1,751 @@
-1|Fancy Collar 1|Collar|CA|5|N
-2|Fancy Collar 2|Collar|CA|0|Y
-3|Not fancy Collar 1|Collar|WA|1|N
-4|Blue Bed|Bed|WA|2|N
-5|Red Sweater|WA |5|N
+2|Fancy Dress Shirt 1|dressShirt|AL|4|N
+4|Fancy Dress 1|dress|AL|133|N
+6|Oxford|shoes|AL|49|N
+8|Expensive Sock 1|socks|AL|97|N
+9|Expensive Sock 2|socks|AL|57|N
+11|Cheap Tie|tie|AL|42|N
+13|Low Heels|heels|AL|17|N
+15|Black Tshirt|tshirt|AL|123|N
+17|Levi|jeans|AL|28|N
+19|Tan|coat|AL|91|N
+20|Tan|coat|AL|114|N
+22|Puff|jacket|AL|176|N
+23|Varsity|jacket|AL|148|N
+25|Expensive Dress Shirt 1|dressShirt|AK|167|N
+27|Black Dress|dress|AK|62|N
+28|Black Dress|dress|AK|90|N
+30|Boot|shoes|AK|80|N
+32|Expensive Sock 2|socks|AK|26|N
+34|Cheap Tie|tie|AK|190|N
+35|Black Tie|tie|AK|159|N
+37|High Heels|heels|AK|87|N
+39|Black Tshirt|tshirt|AK|54|N
+41|Levi|jeans|AK|23|N
+42|Levi|jeans|AK|188|N
+44|Tan|coat|AK|158|N
+45|Black|coat|AK|97|N
+47|Puff|jacket|AK|45|N
+48|Varsity|jacket|AK|110|N
+50|Expensive Dress Shirt 1|dressShirt|AZ|32|N
+51|Fancy Dress Shirt 1|dressShirt|AZ|138|N
+53|Fancy Dress 1|dress|AZ|163|N
+55|Oxford|shoes|AZ|12|N
+56|Nike|shoes|AZ|94|N
+58|Expensive Sock 1|socks|AZ|5|N
+60|Cheap Tie|tie|AZ|127|N
+61|Cheap Tie|tie|AZ|31|N
+63|Low Heels|heels|AZ|132|N
+65|Black Tshirt|tshirt|AZ|184|N
+66|Datastax Tshirt|tshirt|AZ|2|N
+68|Cheap|jeans|AZ|120|N
+69|Cheap|jeans|AZ|172|N
+71|Red|coat|AZ|25|N
+72|Black|coat|AZ|194|N
+74|Varsity|jacket|AZ|114|N
+75|Puff|jacket|AZ|151|N
+77|Cheap Dress Shirt 1|dressShirt|AR|156|N
+78|Cheap Dress Shirt 1|dressShirt|AR|179|N
+80|Black Dress|dress|AR|126|N
+81|Black Dress|dress|AR|13|N
+83|Boot|shoes|AR|4|N
+85|Sport Socks|socks|AR|109|N
+86|Expensive Sock 1|socks|AR|5|N
+88|Black Tie|tie|AR|196|N
+89|Cheap Tie|tie|AR|92|N
+91|High Heels|heels|AR|83|N
+93|Datastax Tshirt|tshirt|AR|28|N
+94|Fancy Tshirt 1|tshirt|AR|33|N
+96|Lucky|jeans|AR|179|N
+98|Tan|coat|AR|40|N
+99|Black|coat|AR|126|N
+101|Puff|jacket|AR|10|N
+103|Fancy Dress Shirt 1|dressShirt|CA|190|N
+105|Black Dress|dress|CA|31|N
+106|Purple Dress|dress|CA|48|N
+108|Vans|shoes|CA|143|N
+109|Vans|shoes|CA|188|N
+111|Expensive Sock 1|socks|CA|31|N
+113|Cheap Tie|tie|CA|139|N
+115|High Heels|heels|CA|95|N
+116|High Heels|heels|CA|114|N
+118|Black Tshirt|tshirt|CA|105|N
+119|Datastax Tshirt|tshirt|CA|142|N
+121|Lucky|jeans|CA|102|N
+122|Lucky|jeans|CA|65|N
+124|Tan|coat|CA|42|N
+125|Red|coat|CA|4|N
+127|Varsity|jacket|CA|103|N
+128|Puff|jacket|CA|153|N
+130|Fancy Dress Shirt 1|dressShirt|CO|8|N
+131|Fancy Dress Shirt 1|dressShirt|CO|104|N
+133|Fancy Dress 1|dress|CO|177|N
+134|Purple Dress|dress|CO|34|N
+136|Nike|shoes|CO|56|N
+137|Vans|shoes|CO|44|N
+139|Expensive Sock 2|socks|CO|53|N
+141|Bow Tie|tie|CO|156|N
+142|Bow Tie|tie|CO|5|N
+144|Black heels|heels|CO|191|N
+145|Wedge Heels|heels|CO|25|N
+147|Fancy Tshirt 1|tshirt|CO|26|N
+149|Lucky|jeans|CO|124|N
+151|Tan|coat|CO|5|N
+152|Red|coat|CO|18|N
+154|Active|jacket|CO|188|N
+155|Puff|jacket|CO|26|N
+157|Cheap Dress Shirt 1|dressShirt|CT|117|N
+159|Black Dress|dress|CT|165|N
+161|Vans|shoes|CT|42|N
+162|Nike|shoes|CT|128|N
+164|Expensive Sock 1|socks|CT|143|N
+165|Expensive Sock 2|socks|CT|73|N
+167|Cheap Tie|tie|CT|19|N
+169|Low Heels|heels|CT|110|N
+171|Black Tshirt|tshirt|CT|63|N
+173|Lucky|jeans|CT|8|N
+175|Black|coat|CT|171|N
+177|Puff|jacket|CT|162|N
+178|Active|jacket|CT|24|N
+180|Cheap Dress Shirt 1|dressShirt|DC|144|N
+182|Black Dress|dress|DC|131|N
+184|Oxford|shoes|DC|195|N
+186|Sport Socks|socks|DC|104|N
+187|Expensive Sock 2|socks|DC|153|N
+189|Cheap Tie|tie|DC|140|N
+191|Black heels|heels|DC|38|N
+193|Black Tshirt|tshirt|DC|96|N
+194|Fancy Tshirt 1|tshirt|DC|71|N
+196|Levi|jeans|DC|140|N
+197|Lucky|jeans|DC|140|N
+199|Black|coat|DC|158|N
+201|Active|jacket|DC|12|N
+203|Cheap Dress Shirt 1|dressShirt|DE|17|N
+205|Fancy Dress 1|dress|DE|28|N
+206|Purple Dress|dress|DE|143|N
+208|Oxford|shoes|DE|30|N
+209|Oxford|shoes|DE|98|N
+211|Sport Socks|socks|DE|45|N
+213|Bow Tie|tie|DE|140|N
+215|Wedge Heels|heels|DE|89|N
+216|Black heels|heels|DE|86|N
+218|Black Tshirt|tshirt|DE|151|N
+219|Black Tshirt|tshirt|DE|30|N
+221|Cheap|jeans|DE|137|N
+223|Tan|coat|DE|191|N
+225|Varsity|jacket|DE|18|N
+227|Cheap Dress Shirt 1|dressShirt|FL|11|N
+229|Fancy Dress 1|dress|FL|139|N
+230|Red Dress|dress|FL|78|N
+232|Vans|shoes|FL|137|N
+233|Nike|shoes|FL|195|N
+235|Expensive Sock 1|socks|FL|4|N
+237|Cheap Tie|tie|FL|44|N
+238|Bow Tie|tie|FL|75|N
+240|High Heels|heels|FL|123|N
+242|Fancy Tshirt 1|tshirt|FL|80|N
+243|Fancy Tshirt 1|tshirt|FL|102|N
+245|Levi|jeans|FL|97|N
+246|Lucky|jeans|FL|33|N
+248|Tan|coat|FL|21|N
+250|Puff|jacket|FL|166|N
+251|Varsity|jacket|FL|67|N
+253|Expensive Dress Shirt 1|dressShirt|GA|54|N
+254|Cheap Dress Shirt 1|dressShirt|GA|111|N
+256|Red Dress|dress|GA|116|N
+257|Black Dress|dress|GA|182|N
+259|Boot|shoes|GA|138|N
+260|Nike|shoes|GA|199|N
+262|Expensive Sock 1|socks|GA|152|N
+263|Expensive Sock 1|socks|GA|147|N
+265|Cheap Tie|tie|GA|178|N
+267|Wedge Heels|heels|GA|85|N
+268|High Heels|heels|GA|28|N
+270|Fancy Tshirt 1|tshirt|GA|183|N
+272|Levi|jeans|GA|105|N
+274|Black|coat|GA|47|N
+276|Active|jacket|GA|119|N
+278|Expensive Dress Shirt 1|dressShirt|HI|33|N
+279|Cheap Dress Shirt 1|dressShirt|HI|93|N
+281|Purple Dress|dress|HI|155|N
+282|Purple Dress|dress|HI|179|N
+284|Nike|shoes|HI|138|N
+285|Vans|shoes|HI|78|N
+287|Expensive Sock 1|socks|HI|115|N
+288|Expensive Sock 1|socks|HI|10|N
+290|Cheap Tie|tie|HI|162|N
+291|Cheap Tie|tie|HI|180|N
+293|Wedge Heels|heels|HI|44|N
+295|Black Tshirt|tshirt|HI|15|N
+296|Datastax Tshirt|tshirt|HI|73|N
+298|Lucky|jeans|HI|41|N
+299|Levi|jeans|HI|106|N
+301|Red|coat|HI|83|N
+302|Tan|coat|HI|123|N
+304|Active|jacket|HI|125|N
+306|Expensive Dress Shirt 1|dressShirt|ID|93|N
+308|Purple Dress|dress|ID|31|N
+309|Red Dress|dress|ID|64|N
+311|Oxford|shoes|ID|94|N
+312|Boot|shoes|ID|70|N
+314|Expensive Sock 2|socks|ID|21|N
+315|Sport Socks|socks|ID|55|N
+317|Black Tie|tie|ID|95|N
+318|Black Tie|tie|ID|194|N
+320|Wedge Heels|heels|ID|100|N
+321|Low Heels|heels|ID|41|N
+323|Fancy Tshirt 1|tshirt|ID|188|N
+324|Fancy Tshirt 1|tshirt|ID|31|N
+326|Cheap|jeans|ID|135|N
+327|Lucky|jeans|ID|192|N
+329|Red|coat|ID|40|N
+331|Varsity|jacket|ID|36|N
+333|Fancy Dress Shirt 1|dressShirt|IL|76|N
+334|Cheap Dress Shirt 1|dressShirt|IL|153|N
+336|Purple Dress|dress|IL|194|N
+338|Nike|shoes|IL|169|N
+339|Boot|shoes|IL|152|N
+341|Expensive Sock 2|socks|IL|80|N
+342|Expensive Sock 1|socks|IL|145|N
+344|Cheap Tie|tie|IL|16|N
+346|Low Heels|heels|IL|25|N
+347|Low Heels|heels|IL|115|N
+349|Datastax Tshirt|tshirt|IL|41|N
+350|Datastax Tshirt|tshirt|IL|30|N
+352|Cheap|jeans|IL|139|N
+354|Red|coat|IL|196|N
+356|Puff|jacket|IL|78|N
+358|Cheap Dress Shirt 1|dressShirt|IN|110|N
+359|Expensive Dress Shirt 1|dressShirt|IN|48|N
+361|Black Dress|dress|IN|126|N
+362|Black Dress|dress|IN|50|N
+364|Boot|shoes|IN|173|N
+366|Expensive Sock 1|socks|IN|181|N
+368|Black Tie|tie|IN|114|N
+369|Cheap Tie|tie|IN|20|N
+371|Wedge Heels|heels|IN|21|N
+373|Fancy Tshirt 1|tshirt|IN|27|N
+375|Cheap|jeans|IN|74|N
+377|Tan|coat|IN|99|N
+378|Black|coat|IN|159|N
+380|Varsity|jacket|IN|144|N
+382|Fancy Dress Shirt 1|dressShirt|IA|118|N
+384|Black Dress|dress|IA|174|N
+386|Vans|shoes|IA|139|N
+388|Expensive Sock 2|socks|IA|180|N
+389|Expensive Sock 2|socks|IA|109|N
+391|Black Tie|tie|IA|151|N
+392|Black Tie|tie|IA|102|N
+394|High Heels|heels|IA|136|N
+396|Fancy Tshirt 1|tshirt|IA|181|N
+398|Levi|jeans|IA|147|N
+399|Lucky|jeans|IA|109|N
+401|Black|coat|IA|141|N
+403|Varsity|jacket|IA|2|N
+404|Puff|jacket|IA|160|N
+406|Cheap Dress Shirt 1|dressShirt|KS|117|N
+408|Red Dress|dress|KS|144|N
+410|Boot|shoes|KS|100|N
+411|Oxford|shoes|KS|165|N
+413|Expensive Sock 1|socks|KS|48|N
+415|Bow Tie|tie|KS|82|N
+416|Cheap Tie|tie|KS|105|N
+418|Black heels|heels|KS|178|N
+419|Wedge Heels|heels|KS|146|N
+421|Black Tshirt|tshirt|KS|79|N
+423|Cheap|jeans|KS|0|N
+425|Tan|coat|KS|39|N
+427|Puff|jacket|KS|115|N
+428|Puff|jacket|KS|63|N
+430|Expensive Dress Shirt 1|dressShirt|KY|35|N
+431|Fancy Dress Shirt 1|dressShirt|KY|160|N
+433|Purple Dress|dress|KY|140|N
+434|Black Dress|dress|KY|121|N
+436|Nike|shoes|KY|183|N
+438|Sport Socks|socks|KY|114|N
+439|Expensive Sock 1|socks|KY|55|N
+441|Bow Tie|tie|KY|79|N
+442|Cheap Tie|tie|KY|193|N
+444|Black heels|heels|KY|125|N
+446|Datastax Tshirt|tshirt|KY|161|N
+447|Fancy Tshirt 1|tshirt|KY|70|N
+449|Levi|jeans|KY|186|N
+450|Levi|jeans|KY|32|N
+452|Tan|coat|KY|104|N
+454|Varsity|jacket|KY|197|N
+455|Active|jacket|KY|81|N
+457|Expensive Dress Shirt 1|dressShirt|LA|193|N
+458|Cheap Dress Shirt 1|dressShirt|LA|124|N
+460|Fancy Dress 1|dress|LA|187|N
+461|Red Dress|dress|LA|13|N
+463|Vans|shoes|LA|145|N
+465|Sport Socks|socks|LA|187|N
+467|Bow Tie|tie|LA|134|N
+468|Black Tie|tie|LA|94|N
+470|Low Heels|heels|LA|188|N
+471|High Heels|heels|LA|93|N
+473|Fancy Tshirt 1|tshirt|LA|191|N
+474|Datastax Tshirt|tshirt|LA|131|N
+476|Levi|jeans|LA|171|N
+477|Levi|jeans|LA|55|N
+479|Tan|coat|LA|71|N
+481|Varsity|jacket|LA|154|N
+482|Varsity|jacket|LA|136|N
+484|Cheap Dress Shirt 1|dressShirt|ME|26|N
+485|Expensive Dress Shirt 1|dressShirt|ME|110|N
+487|Purple Dress|dress|ME|5|N
+489|Vans|shoes|ME|187|N
+491|Expensive Sock 1|socks|ME|187|N
+493|Bow Tie|tie|ME|74|N
+494|Black Tie|tie|ME|183|N
+496|Low Heels|heels|ME|2|N
+497|Wedge Heels|heels|ME|85|N
+499|Datastax Tshirt|tshirt|ME|52|N
+500|Datastax Tshirt|tshirt|ME|179|N
+502|Lucky|jeans|ME|156|N
+503|Lucky|jeans|ME|125|N
+505|Black|coat|ME|148|N
+507|Active|jacket|ME|148|N
+508|Puff|jacket|ME|33|N
+510|Fancy Dress Shirt 1|dressShirt|MD|110|N
+511|Expensive Dress Shirt 1|dressShirt|MD|84|N
+513|Fancy Dress 1|dress|MD|107|N
+514|Fancy Dress 1|dress|MD|78|N
+516|Boot|shoes|MD|137|N
+518|Sport Socks|socks|MD|178|N
+519|Sport Socks|socks|MD|185|N
+521|Bow Tie|tie|MD|195|N
+523|Low Heels|heels|MD|100|N
+524|Low Heels|heels|MD|24|N
+526|Black Tshirt|tshirt|MD|91|N
+527|Datastax Tshirt|tshirt|MD|113|N
+529|Levi|jeans|MD|4|N
+531|Black|coat|MD|4|N
+533|Puff|jacket|MD|24|N
+534|Puff|jacket|MD|83|N
+536|Cheap Dress Shirt 1|dressShirt|MA|143|N
+538|Fancy Dress 1|dress|MA|36|N
+540|Boot|shoes|MA|101|N
+541|Oxford|shoes|MA|153|N
+543|Expensive Sock 1|socks|MA|94|N
+545|Black Tie|tie|MA|63|N
+547|Black heels|heels|MA|95|N
+549|Datastax Tshirt|tshirt|MA|145|N
+551|Levi|jeans|MA|90|N
+552|Cheap|jeans|MA|25|N
+554|Black|coat|MA|120|N
+555|Red|coat|MA|53|N
+557|Varsity|jacket|MA|123|N
+558|Active|jacket|MA|3|N
+560|Cheap Dress Shirt 1|dressShirt|MI|58|N
+562|Purple Dress|dress|MI|1|N
+564|Nike|shoes|MI|160|N
+565|Boot|shoes|MI|141|N
+567|Sport Socks|socks|MI|147|N
+568|Expensive Sock 2|socks|MI|75|N
+570|Black Tie|tie|MI|183|N
+572|Wedge Heels|heels|MI|110|N
+573|Black heels|heels|MI|26|N
+575|Datastax Tshirt|tshirt|MI|151|N
+576|Black Tshirt|tshirt|MI|123|N
+578|Lucky|jeans|MI|83|N
+579|Cheap|jeans|MI|97|N
+581|Tan|coat|MI|35|N
+582|Tan|coat|MI|79|N
+584|Active|jacket|MI|67|N
+586|Expensive Dress Shirt 1|dressShirt|MN|80|N
+587|Cheap Dress Shirt 1|dressShirt|MN|38|N
+589|Red Dress|dress|MN|51|N
+590|Black Dress|dress|MN|45|N
+592|Nike|shoes|MN|123|N
+594|Expensive Sock 2|socks|MN|29|N
+595|Sport Socks|socks|MN|112|N
+597|Cheap Tie|tie|MN|175|N
+599|High Heels|heels|MN|53|N
+601|Fancy Tshirt 1|tshirt|MN|153|N
+603|Lucky|jeans|MN|50|N
+605|Tan|coat|MN|117|N
+607|Active|jacket|MN|32|N
+608|Varsity|jacket|MN|121|N
+610|Fancy Dress Shirt 1|dressShirt|MS|34|N
+611|Expensive Dress Shirt 1|dressShirt|MS|130|N
+613|Fancy Dress 1|dress|MS|118|N
+615|Oxford|shoes|MS|96|N
+616|Vans|shoes|MS|126|N
+618|Sport Socks|socks|MS|21|N
+620|Bow Tie|tie|MS|146|N
+621|Bow Tie|tie|MS|52|N
+623|Black heels|heels|MS|194|N
+625|Fancy Tshirt 1|tshirt|MS|142|N
+626|Black Tshirt|tshirt|MS|71|N
+628|Cheap|jeans|MS|115|N
+630|Red|coat|MS|107|N
+631|Red|coat|MS|75|N
+633|Varsity|jacket|MS|179|N
+635|Fancy Dress Shirt 1|dressShirt|MO|165|N
+636|Expensive Dress Shirt 1|dressShirt|MO|67|N
+638|Red Dress|dress|MO|91|N
+639|Black Dress|dress|MO|195|N
+641|Oxford|shoes|MO|0|N
+643|Expensive Sock 1|socks|MO|116|N
+645|Cheap Tie|tie|MO|106|N
+646|Cheap Tie|tie|MO|185|N
+648|Low Heels|heels|MO|71|N
+649|High Heels|heels|MO|36|N
+651|Datastax Tshirt|tshirt|MO|169|N
+653|Lucky|jeans|MO|56|N
+654|Cheap|jeans|MO|173|N
+656|Red|coat|MO|10|N
+657|Red|coat|MO|31|N
+659|Varsity|jacket|MO|159|N
+660|Varsity|jacket|MO|162|N
+662|Expensive Dress Shirt 1|dressShirt|MT|135|N
+663|Expensive Dress Shirt 1|dressShirt|MT|68|N
+665|Fancy Dress 1|dress|MT|184|N
+666|Purple Dress|dress|MT|153|N
+668|Boot|shoes|MT|15|N
+669|Boot|shoes|MT|171|N
+671|Sport Socks|socks|MT|15|N
+672|Expensive Sock 2|socks|MT|55|N
+674|Bow Tie|tie|MT|189|N
+676|Wedge Heels|heels|MT|113|N
+677|Black heels|heels|MT|88|N
+679|Datastax Tshirt|tshirt|MT|35|N
+681|Lucky|jeans|MT|181|N
+682|Levi|jeans|MT|191|N
+684|Black|coat|MT|49|N
+686|Puff|jacket|MT|178|N
+687|Puff|jacket|MT|13|N
+689|Cheap Dress Shirt 1|dressShirt|NE|88|N
+691|Fancy Dress 1|dress|NE|31|N
+693|Oxford|shoes|NE|106|N
+694|Nike|shoes|NE|140|N
+696|Expensive Sock 1|socks|NE|132|N
+698|Cheap Tie|tie|NE|5|N
+700|Low Heels|heels|NE|166|N
+702|Fancy Tshirt 1|tshirt|NE|46|N
+703|Black Tshirt|tshirt|NE|162|N
+705|Lucky|jeans|NE|165|N
+707|Tan|coat|NE|179|N
+709|Active|jacket|NE|170|N
+711|Cheap Dress Shirt 1|dressShirt|NV|26|N
+713|Fancy Dress 1|dress|NV|173|N
+714|Fancy Dress 1|dress|NV|141|N
+716|Boot|shoes|NV|23|N
+717|Nike|shoes|NV|59|N
+719|Expensive Sock 2|socks|NV|17|N
+721|Cheap Tie|tie|NV|22|N
+722|Cheap Tie|tie|NV|38|N
+724|Low Heels|heels|NV|70|N
+726|Fancy Tshirt 1|tshirt|NV|76|N
+728|Levi|jeans|NV|137|N
+730|Tan|coat|NV|122|N
+732|Active|jacket|NV|193|N
+734|Expensive Dress Shirt 1|dressShirt|NH|29|N
+736|Black Dress|dress|NH|155|N
+737|Fancy Dress 1|dress|NH|164|N
+739|Boot|shoes|NH|112|N
+741|Expensive Sock 1|socks|NH|170|N
+743|Cheap Tie|tie|NH|11|N
+745|Low Heels|heels|NH|131|N
+747|Datastax Tshirt|tshirt|NH|100|N
+749|Levi|jeans|NH|67|N
+751|Black|coat|NH|1|N
+752|Tan|coat|NH|197|N
+754|Varsity|jacket|NH|126|N
+755|Puff|jacket|NH|148|N
+757|Expensive Dress Shirt 1|dressShirt|NJ|52|N
+758|Expensive Dress Shirt 1|dressShirt|NJ|177|N
+760|Black Dress|dress|NJ|136|N
+761|Fancy Dress 1|dress|NJ|129|N
+763|Boot|shoes|NJ|69|N
+765|Expensive Sock 2|socks|NJ|186|N
+766|Sport Socks|socks|NJ|18|N
+768|Cheap Tie|tie|NJ|155|N
+770|Black heels|heels|NJ|153|N
+772|Datastax Tshirt|tshirt|NJ|126|N
+774|Lucky|jeans|NJ|92|N
+776|Tan|coat|NJ|160|N
+778|Varsity|jacket|NJ|97|N
+780|Expensive Dress Shirt 1|dressShirt|NM|26|N
+781|Cheap Dress Shirt 1|dressShirt|NM|196|N
+783|Fancy Dress 1|dress|NM|61|N
+785|Nike|shoes|NM|49|N
+786|Boot|shoes|NM|92|N
+788|Expensive Sock 2|socks|NM|101|N
+790|Bow Tie|tie|NM|96|N
+792|Wedge Heels|heels|NM|181|N
+793|Low Heels|heels|NM|74|N
+795|Datastax Tshirt|tshirt|NM|188|N
+797|Lucky|jeans|NM|143|N
+798|Levi|jeans|NM|188|N
+800|Black|coat|NM|90|N
+801|Red|coat|NM|164|N
+803|Varsity|jacket|NM|123|N
+804|Varsity|jacket|NM|173|N
+806|Fancy Dress Shirt 1|dressShirt|NY|93|N
+807|Fancy Dress Shirt 1|dressShirt|NY|98|N
+809|Fancy Dress 1|dress|NY|52|N
+810|Red Dress|dress|NY|74|N
+812|Oxford|shoes|NY|107|N
+813|Oxford|shoes|NY|147|N
+815|Expensive Sock 2|socks|NY|80|N
+816|Expensive Sock 2|socks|NY|54|N
+818|Bow Tie|tie|NY|135|N
+819|Cheap Tie|tie|NY|68|N
+821|High Heels|heels|NY|30|N
+822|High Heels|heels|NY|196|N
+824|Datastax Tshirt|tshirt|NY|139|N
+825|Black Tshirt|tshirt|NY|36|N
+827|Lucky|jeans|NY|181|N
+829|Tan|coat|NY|149|N
+830|Red|coat|NY|144|N
+832|Active|jacket|NY|135|N
+833|Puff|jacket|NY|179|N
+835|Fancy Dress Shirt 1|dressShirt|NC|83|N
+836|Fancy Dress Shirt 1|dressShirt|NC|151|N
+838|Fancy Dress 1|dress|NC|59|N
+840|Vans|shoes|NC|54|N
+841|Nike|shoes|NC|120|N
+843|Sport Socks|socks|NC|90|N
+844|Sport Socks|socks|NC|134|N
+846|Black Tie|tie|NC|193|N
+847|Cheap Tie|tie|NC|27|N
+849|Wedge Heels|heels|NC|152|N
+850|High Heels|heels|NC|122|N
+852|Datastax Tshirt|tshirt|NC|107|N
+853|Black Tshirt|tshirt|NC|4|N
+855|Lucky|jeans|NC|142|N
+857|Black|coat|NC|66|N
+859|Active|jacket|NC|134|N
+861|Fancy Dress Shirt 1|dressShirt|ND|9|N
+863|Black Dress|dress|ND|25|N
+864|Black Dress|dress|ND|157|N
+866|Nike|shoes|ND|41|N
+867|Oxford|shoes|ND|155|N
+869|Expensive Sock 1|socks|ND|166|N
+870|Expensive Sock 2|socks|ND|172|N
+872|Cheap Tie|tie|ND|18|N
+873|Black Tie|tie|ND|93|N
+875|Wedge Heels|heels|ND|37|N
+876|Low Heels|heels|ND|114|N
+878|Black Tshirt|tshirt|ND|85|N
+879|Black Tshirt|tshirt|ND|1|N
+881|Cheap|jeans|ND|173|N
+883|Red|coat|ND|50|N
+885|Puff|jacket|ND|189|N
+886|Varsity|jacket|ND|24|N
+888|Fancy Dress Shirt 1|dressShirt|OH|116|N
+889|Fancy Dress Shirt 1|dressShirt|OH|158|N
+891|Red Dress|dress|OH|184|N
+892|Purple Dress|dress|OH|166|N
+894|Oxford|shoes|OH|196|N
+895|Vans|shoes|OH|96|N
+897|Sport Socks|socks|OH|32|N
+899|Bow Tie|tie|OH|41|N
+900|Bow Tie|tie|OH|182|N
+902|Low Heels|heels|OH|20|N
+903|Black heels|heels|OH|24|N
+905|Fancy Tshirt 1|tshirt|OH|120|N
+906|Fancy Tshirt 1|tshirt|OH|185|N
+908|Cheap|jeans|OH|28|N
+909|Lucky|jeans|OH|126|N
+911|Tan|coat|OH|128|N
+913|Varsity|jacket|OH|143|N
+915|Expensive Dress Shirt 1|dressShirt|OK|50|N
+916|Fancy Dress Shirt 1|dressShirt|OK|86|N
+918|Fancy Dress 1|dress|OK|66|N
+919|Black Dress|dress|OK|112|N
+921|Vans|shoes|OK|119|N
+923|Expensive Sock 1|socks|OK|144|N
+924|Expensive Sock 1|socks|OK|103|N
+926|Bow Tie|tie|OK|136|N
+927|Cheap Tie|tie|OK|136|N
+929|High Heels|heels|OK|187|N
+931|Datastax Tshirt|tshirt|OK|80|N
+932|Black Tshirt|tshirt|OK|72|N
+934|Lucky|jeans|OK|172|N
+936|Black|coat|OK|81|N
+937|Black|coat|OK|191|N
+939|Varsity|jacket|OK|162|N
+941|Cheap Dress Shirt 1|dressShirt|OR|2|N
+942|Cheap Dress Shirt 1|dressShirt|OR|118|N
+944|Black Dress|dress|OR|190|N
+946|Nike|shoes|OR|15|N
+948|Expensive Sock 1|socks|OR|155|N
+950|Cheap Tie|tie|OR|160|N
+952|Low Heels|heels|OR|48|N
+953|Black heels|heels|OR|63|N
+955|Black Tshirt|tshirt|OR|95|N
+957|Lucky|jeans|OR|145|N
+958|Cheap|jeans|OR|152|N
+960|Red|coat|OR|162|N
+962|Puff|jacket|OR|62|N
+964|Expensive Dress Shirt 1|dressShirt|PA|177|N
+966|Fancy Dress 1|dress|PA|48|N
+968|Nike|shoes|PA|63|N
+970|Sport Socks|socks|PA|45|N
+972|Bow Tie|tie|PA|46|N
+974|Black heels|heels|PA|90|N
+975|Wedge Heels|heels|PA|184|N
+977|Datastax Tshirt|tshirt|PA|92|N
+978|Fancy Tshirt 1|tshirt|PA|35|N
+980|Lucky|jeans|PA|139|N
+982|Black|coat|PA|114|N
+983|Red|coat|PA|14|N
+985|Varsity|jacket|PA|134|N
+987|Expensive Dress Shirt 1|dressShirt|RI|188|N
+989|Red Dress|dress|RI|107|N
+991|Boot|shoes|RI|106|N
+992|Vans|shoes|RI|40|N
+994|Expensive Sock 1|socks|RI|6|N
+996|Bow Tie|tie|RI|185|N
+997|Cheap Tie|tie|RI|14|N
+999|Low Heels|heels|RI|109|N
+1000|Wedge Heels|heels|RI|166|N
+1002|Datastax Tshirt|tshirt|RI|113|N
+1004|Lucky|jeans|RI|142|N
+1005|Cheap|jeans|RI|183|N
+1007|Tan|coat|RI|87|N
+1008|Tan|coat|RI|175|N
+1010|Varsity|jacket|RI|112|N
+1011|Puff|jacket|RI|171|N
+1013|Cheap Dress Shirt 1|dressShirt|SC|121|N
+1015|Purple Dress|dress|SC|182|N
+1017|Vans|shoes|SC|162|N
+1018|Nike|shoes|SC|156|N
+1020|Expensive Sock 2|socks|SC|29|N
+1022|Bow Tie|tie|SC|34|N
+1024|Low Heels|heels|SC|65|N
+1026|Datastax Tshirt|tshirt|SC|139|N
+1028|Levi|jeans|SC|158|N
+1030|Black|coat|SC|130|N
+1032|Active|jacket|SC|117|N
+1033|Varsity|jacket|SC|162|N
+1035|Fancy Dress Shirt 1|dressShirt|SD|106|N
+1036|Cheap Dress Shirt 1|dressShirt|SD|160|N
+1038|Black Dress|dress|SD|149|N
+1039|Purple Dress|dress|SD|118|N
+1041|Vans|shoes|SD|30|N
+1042|Boot|shoes|SD|193|N
+1044|Sport Socks|socks|SD|188|N
+1045|Sport Socks|socks|SD|23|N
+1047|Cheap Tie|tie|SD|69|N
+1049|Low Heels|heels|SD|58|N
+1050|Wedge Heels|heels|SD|71|N
+1052|Datastax Tshirt|tshirt|SD|158|N
+1054|Lucky|jeans|SD|88|N
+1056|Black|coat|SD|54|N
+1057|Tan|coat|SD|154|N
+1059|Varsity|jacket|SD|153|N
+1060|Varsity|jacket|SD|28|N
+1062|Expensive Dress Shirt 1|dressShirt|TN|6|N
+1064|Purple Dress|dress|TN|180|N
+1065|Red Dress|dress|TN|157|N
+1067|Oxford|shoes|TN|155|N
+1069|Expensive Sock 2|socks|TN|169|N
+1070|Sport Socks|socks|TN|96|N
+1072|Black Tie|tie|TN|57|N
+1074|Low Heels|heels|TN|41|N
+1076|Datastax Tshirt|tshirt|TN|14|N
+1078|Lucky|jeans|TN|121|N
+1080|Black|coat|TN|146|N
+1081|Black|coat|TN|114|N
+1083|Active|jacket|TN|143|N
+1085|Cheap Dress Shirt 1|dressShirt|TX|53|N
+1086|Expensive Dress Shirt 1|dressShirt|TX|165|N
+1088|Fancy Dress 1|dress|TX|49|N
+1089|Purple Dress|dress|TX|190|N
+1091|Nike|shoes|TX|178|N
+1093|Sport Socks|socks|TX|87|N
+1094|Expensive Sock 1|socks|TX|43|N
+1096|Cheap Tie|tie|TX|114|N
+1098|Black heels|heels|TX|53|N
+1100|Datastax Tshirt|tshirt|TX|94|N
+1101|Datastax Tshirt|tshirt|TX|68|N
+1103|Lucky|jeans|TX|187|N
+1105|Black|coat|TX|125|N
+1106|Red|coat|TX|105|N
+1108|Active|jacket|TX|167|N
+1109|Puff|jacket|TX|89|N
+1111|Cheap Dress Shirt 1|dressShirt|UT|28|N
+1113|Fancy Dress 1|dress|UT|8|N
+1115|Nike|shoes|UT|5|N
+1116|Oxford|shoes|UT|119|N
+1118|Sport Socks|socks|UT|57|N
+1120|Black Tie|tie|UT|166|N
+1121|Bow Tie|tie|UT|3|N
+1123|High Heels|heels|UT|88|N
+1124|Black heels|heels|UT|141|N
+1126|Fancy Tshirt 1|tshirt|UT|154|N
+1127|Datastax Tshirt|tshirt|UT|121|N
+1129|Levi|jeans|UT|129|N
+1130|Lucky|jeans|UT|2|N
+1132|Red|coat|UT|89|N
+1134|Puff|jacket|UT|194|N
+1136|Fancy Dress Shirt 1|dressShirt|VT|149|N
+1137|Expensive Dress Shirt 1|dressShirt|VT|23|N
+1139|Purple Dress|dress|VT|0|N
+1140|Fancy Dress 1|dress|VT|93|N
+1142|Boot|shoes|VT|161|N
+1144|Expensive Sock 2|socks|VT|11|N
+1146|Bow Tie|tie|VT|195|N
+1147|Black Tie|tie|VT|60|N
+1149|High Heels|heels|VT|142|N
+1151|Datastax Tshirt|tshirt|VT|52|N
+1153|Levi|jeans|VT|142|N
+1155|Red|coat|VT|185|N
+1156|Black|coat|VT|92|N
+1158|Varsity|jacket|VT|2|N
+1160|Cheap Dress Shirt 1|dressShirt|VA|112|N
+1162|Fancy Dress 1|dress|VA|163|N
+1163|Black Dress|dress|VA|80|N
+1165|Nike|shoes|VA|28|N
+1167|Sport Socks|socks|VA|87|N
+1169|Black Tie|tie|VA|74|N
+1171|Wedge Heels|heels|VA|41|N
+1173|Black Tshirt|tshirt|VA|161|N
+1175|Levi|jeans|VA|132|N
+1176|Levi|jeans|VA|196|N
+1178|Black|coat|VA|163|N
+1180|Active|jacket|VA|139|N
+1182|Fancy Dress Shirt 1|dressShirt|WA|123|N
+1184|Fancy Dress 1|dress|WA|117|N
+1186|Nike|shoes|WA|120|N
+1187|Vans|shoes|WA|99|N
+1189|Expensive Sock 2|socks|WA|159|N
+1190|Sport Socks|socks|WA|122|N
+1192|Black Tie|tie|WA|173|N
+1194|High Heels|heels|WA|28|N
+1196|Datastax Tshirt|tshirt|WA|115|N
+1197|Datastax Tshirt|tshirt|WA|15|N
+1199|Lucky|jeans|WA|30|N
+1200|Levi|jeans|WA|137|N
+1202|Red|coat|WA|13|N
+1203|Tan|coat|WA|80|N
+1205|Puff|jacket|WA|75|N
+1207|Expensive Dress Shirt 1|dressShirt|WV|62|N
+1208|Fancy Dress Shirt 1|dressShirt|WV|153|N
+1210|Black Dress|dress|WV|23|N
+1212|Boot|shoes|WV|168|N
+1214|Expensive Sock 2|socks|WV|104|N
+1216|Bow Tie|tie|WV|51|N
+1217|Bow Tie|tie|WV|103|N
+1219|Black heels|heels|WV|164|N
+1221|Datastax Tshirt|tshirt|WV|99|N
+1223|Cheap|jeans|WV|58|N
+1224|Lucky|jeans|WV|24|N
+1226|Black|coat|WV|114|N
+1228|Active|jacket|WV|147|N
+1230|Expensive Dress Shirt 1|dressShirt|WI|26|N
+1232|Red Dress|dress|WI|18|N
+1234|Boot|shoes|WI|177|N
+1235|Oxford|shoes|WI|141|N
+1237|Expensive Sock 1|socks|WI|24|N
+1238|Expensive Sock 1|socks|WI|109|N
+1240|Cheap Tie|tie|WI|52|N
+1242|Black heels|heels|WI|38|N
+1244|Datastax Tshirt|tshirt|WI|21|N
+1245|Fancy Tshirt 1|tshirt|WI|180|N
+1247|Cheap|jeans|WI|46|N
+1249|Tan|coat|WI|0|N
+1251|Varsity|jacket|WI|156|N
